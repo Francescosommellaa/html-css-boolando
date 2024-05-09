@@ -47,9 +47,10 @@ header {
     width: 20%;
 }
 
-.navigazione ul {
+ul {
     display: flex;
     align-items: center;
+    gap: 0.9em ;
 }
 
 .navigazione .left {
@@ -60,8 +61,7 @@ header {
     justify-content: end;
 }
 
-ul .nav-item {
-    padding: 0 4%;
+ul .item {
     font-size: 16px;
     font-weight: 500;
 }
@@ -148,4 +148,12 @@ ul .nav-item {
 .ex-price {
     color: black;
     text-decoration: line-through;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 2% 0;
 }
