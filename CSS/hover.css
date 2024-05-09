@@ -1,0 +1,9 @@
+.img-section:hover .overlay-img {
+    display: block;
+    cursor: pointer;
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
+}

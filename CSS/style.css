@@ -87,9 +87,23 @@ ul .item {
     position: relative;
 }
 
-.img-section {
+.img-section img {
     width: 100%;
+    height: 100%;
     border-radius: 4px;
+}
+
+.img-section {
+    position: relative;
+}
+
+.overlay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 
 /* icona cuore */
