@@ -1,7 +1,64 @@
+/* regole generali pagina */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-/* regole generali */
+
+/* regole generali ul e a */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* regole generali header */
+header {
+    background-color: orangered;
+    color: white;
+}
+
+.container {
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+/* regole nevigazione */
+.navigazione {
+    width: 20%;
+}
+
+.navigazione ul {
+    display: flex;
+    align-items: center;
+}
+
+.navigazione .left {
+    justify-content: start;
+}
+
+.navigazione .right {
+    justify-content: end;
+}
+
+ul .nav-item {
+    padding: 0 4%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* regole logo */
+.center .logo {
+    height: 2.4em;
+}
