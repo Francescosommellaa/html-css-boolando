@@ -22,10 +22,18 @@ a {
 header {
     background-color: orangered;
     color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+    height: 60px;
+}
+
+#hd-cont {
+    height: 100%;
 }
 
 .container {
-    height: 60px;
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -61,4 +69,83 @@ ul .nav-item {
 /* regole logo */
 .center .logo {
     height: 2.4em;
+}
+
+
+/* regole main */
+#st-cont-first {
+    margin-top: 80px;
+}
+
+.card {
+    width: calc(100% / 3 - 4%);
+    margin: 2% 0;
+}
+
+/* regole card */
+.cont-img {
+    position: relative;
+}
+
+.img-section {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* icona cuore */
+.heart {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+/* etichette */
+.information {
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+    color: white;
+}
+
+.etichetta {
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.sconto {
+    background-color: red;
+    margin-right: 4px;
+}
+
+.sostenibilita {
+    background-color: green;
+}
+
+/* testo */
+.text {
+    margin-top: 0.6em;
+}
+
+.marchio {
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.price {
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ex-price {
+    color: black;
+    text-decoration: line-through;
 }
